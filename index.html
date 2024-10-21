@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templet 1</title>
+    <style type="text/css">
+body{
+    margin: 0;
+    background-color: #cccccc;
+}
+table{
+    border-spacing:0;
+}
+td{
+    padding: 0;
+}
+ img{
+    border: 0;
+ }
+.wrapper {
+    width: 100%;
+    table-layout: fixed; 
+    background-color: #cccccc;
+    padding-bottom: 60px;
+}
+
+.main {
+    background-color: #ffffffff;
+margin: 0 auto;
+width: 100%;
+max-width: 600px;
+border-spacing: 0;
+font-family: sans-serif;
+color: #171a1b
+
+}
+.two-columns{
+    font-size: 0;
+    text-align: center;
+    
+}
+.two-columns .column{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.three-columns{
+    text-align: center;
+    font-size: 0;
+    padding: 15px 0 25px;
+    
+}
+.three-columns .column{
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+.three-columns.padding{
+    padding: 15px;
+
+}
+.three-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 5px;
+
+}
+two-columns.last{
+    padding: 15px 0;
+
+}
+.two-columns.padding {
+   padding: 20px; 
+}
+.two-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+.button{
+    background-color: #ffffff;
+    color: #171a1b;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius:5px;
+    font-weight: bold;
+}
+.button-dark{
+   background-color:#171a1b;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius:5px;
+    font-weight: bold;  
+
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <table class="main" width=" 100%">
+<!-- top border -->
+<tr>
+    <td height="8" style="background-color:#171a1b;">
+
+    </td>
+</tr>
+<!-- logo part -->
+<tr>
+    <td stylle="14px 0 4px;">
+        <table width ="100%">
+           <tr>
+            <td class="two-columns">
+             <table class="column">
+               <tr>
+                <td style="padding: 0 62px ;">
+                 <a href="https://www.google.com"><img src="img/modern.jpg" alt="Modern Logo" width="180" title="Modern Logo"></a>   
+                </td>
+               </tr> 
+             </table> 
+             <table class="column">
+                <tr>
+                    <td style="padding: 10px 72px;">
+                     <a href="#"><img src="img/black-facebook.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/black-twitter.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/black-instagram.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/black-linkedin.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/black-youtube.png" alt="" width="30"></a>   
+                     
+                    </td>
+                </tr>
+             </table>  
+            </td>
+           </tr> 
+        </table>
+    </td>
+</tr>
+
+
+<!-- long section  -->
+
+
+
+<!-- banner section  -->
+
+<tr>
+    <td>
+        <a href="#"><img src="img/banner.jpg" alt="" width="600" style="max-width: 100%;"></a>
+    </td>
+</tr>
+
+<!-- three columens  -->
+<tr>
+    <td>
+        <table width="100%">
+<tr>
+    <td class="three-columns">
+        <table class="column">
+            <tr>
+                <td class="padding">
+                    <table class="content">
+                        <tr>
+                            <td>
+                              <a href="#"><img src="img/email.png" alt="" width="130px
+                                "style="max: width 130px;"></a>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-weight: bold;font-size: 17px;"> Ecommerce</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ea dolore laborum tempora optio laudantium assumenda dolorum nemo nisi sint, repellendus eligendi id libero, voluptate cum beatae veniam maxime adipisci.</p>
+                        
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+         <table class="column">
+            <tr>
+                <td class="padding">
+                    <table class="content">
+                        <tr>
+                            <td>
+                              <a href="#"><img src="img/settings.png" alt="" width="130px
+                                "style="max: width 130px;"></a>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-weight: bold;font-size: 17px;"> Web Design</p>
+                                <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, sapiente perspiciatis iusto repellat nobis corrupti. Voluptatem rem facere velit laboriosam provident totam quia? Quo consequatur molestias ratione, quidem accusamus odio.</P>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+         <table class="column">
+            <tr>
+                <td class="padding">
+                    <table class="content">
+                        <tr>
+                            <td>
+                              <a href="#"><img src="img/home.png" alt="" width="130px
+                                "style="max: width 130px;"></a>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-weight: bold;font-size: 17px;"> HTML Email</p>
+                                <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus voluptatibus neque asperiores voluptas nobis unde aliquid pariatur ex atque earum perspiciatis, dolore magnam cupiditate, nesciunt fuga! Dolore quidem laudantium molestias! </P>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+</td>
+</tr>
+        </table>
+    </td>
+</tr>
+
+
+<!-- two columens -->
+<tr>
+    <td style="background-color: #26292b;color: #ffffff;">
+        <table width="100%" >
+            <tr>
+                <td class="two-columns last">
+<table class="column">
+    <tr>
+        <td class="padding">
+            <table class="content">
+                <tr>
+                    <td>
+                        <a href="#"><img src="img/keyboard.jpg" alt="" width="260px" style="max-width: 260px;" ></a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table class="column">
+    <tr>
+        <td class="padding">
+            <table class="content">
+                <tr>
+                    <td>
+                       <p style="font-weight: bold;font-size: 18px;">
+                    Create custom designs
+                 </p>
+                 <p style="padding-bottom:16px ;"> 
+                    hhdhhd jhhggd kidhydfhn hjgyhnbdnh jughbnjhghn juhghb 
+
+                 </p>
+                 <a href="" class="button "> Read more</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<!-- title ,text and button  -->
+
+<tr>
+    <td style="padding: 15px 0 50px;">
+        <table width="100%">
+            <tr>
+                <td style="text-align: center;">
+        <p style="font-size: 20px; font-weight: bold;" >HTML email text </p>
+    <p style=" line-height: 23
+    px ; font-size: 15px; padding: 5px 0 15px;" >   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore vel distinctio deserunt sed ad itaque commodi! Doloremque suscipit nostrum molestias, ut velit repellendus alias, quasi expedita fugiat inventore ipsam. Nihil.</p>
+             <a href="" class="button-dark "> View more</a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<!-- footer part -->
+<tr>
+    <td style="background-color: #26292b;">
+        <table width=" 100%">
+<tr>
+    <td style="text-align: center;padding: 45px 20px;color: #ffffff;">
+        <a href=""><img src="img/modern-white.png" alt="" width="180px"></a>
+    <p style="padding: 10px;">Moderen HTML Email</p>
+    <p style="padding: 10px;"> 12 street road city state 5555 </p>
+    <a href="#"><img src="img/black-facebook.png" alt="" width="30"></a>   
+                      <a href="#"><img src="img/white-facebook.png" alt="" width="30"></a>  
+                     <a href="#"><img src="img/white-twitter.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/white-instagram.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/white-linkedin.png" alt="" width="30"></a>   
+                     <a href="#"><img src="img/white-youtube.png" alt="" width="30"></a>   
+                     <p style="padding: 10px;"> SUBSCRIBE</p>
+    </td>
+</tr>
+        </table>
+    </td>
+</tr>
+
+
+        </table
+    </div>
+    
+</body>
+</html>
